@@ -26,7 +26,7 @@ const password = event.target.password.value;
  await createUserWithEmailAndPassword(email, password)
  await updateProfile ({displayName:name})
  alert('update profile ')
-  navigate('/home')
+  navigate('/login')
 
 }
 
